@@ -13,7 +13,7 @@ ln -sfv "$DOTFILES_DIR/.bashrc" ~
 ln -sfv "$DOTFILES_DIR/.editorconfig" ~
 
 if [ -f ${DOTFILES_DIR}/.gitconfig.${USER} ]; then
-  ln -sfv "$DOTFILES_DIR/.gitconfig.$USER" ~
+  ln -sfv "$DOTFILES_DIR/.gitconfig.$USER" ~/.gitconfig
 else
   ln -sfv "$DOTFILES_DIR/.gitconfig" ~
 fi
