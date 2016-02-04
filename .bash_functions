@@ -1,5 +1,5 @@
 #!/bin/bash
-# ~/.bash_functions
+# ~/.functions
 # author: starise
 
 # Extract script

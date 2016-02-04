@@ -7,8 +7,8 @@ DOTFILES_DIR="$(cd $(dirname "$1") && pwd -P)"
 
 # Symlink configuration files
 echo "Installing Dotfiles..."
-ln -sfv "$DOTFILES_DIR/.bash_aliases" ~
-ln -sfv "$DOTFILES_DIR/.bash_functions" ~
+ln -sfv "$DOTFILES_DIR/.aliases" ~
+ln -sfv "$DOTFILES_DIR/.functions" ~
 ln -sfv "$DOTFILES_DIR/.bashrc" ~
 ln -sfv "$DOTFILES_DIR/.editorconfig" ~
 

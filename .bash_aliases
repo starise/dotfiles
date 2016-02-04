@@ -1,5 +1,5 @@
 #!/bin/bash
-# ~/.bash_aliases
+# ~/.aliases
 # author: starise
 
 # enable color support of ls and also add handy aliases
